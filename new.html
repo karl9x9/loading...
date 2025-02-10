@@ -1,0 +1,35 @@
+<style>
+    body {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @keyframes spin{
+        0%{}
+        100%{
+            transform: rotate(180deg);
+        }
+    }
+    div {
+        width: 50px;
+        height: 50px;
+        border: 6px solid;
+        border-color: white transparent;
+        border-radius: 50%;
+        animation-name: spin;
+        animation-duration: 1.3s;
+        animation-iteration-count:infinite ;
+        animation-direction: ease-in-out;
+        position: relative;
+        left: 150px;
+    }
+    h1 {
+        position: relative;
+        top: -30%;
+        font-size: 70px;
+        color: white;
+    }
+</style>
+<div></div>
+<h1>Loading...</h1>
